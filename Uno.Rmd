@@ -1,0 +1,17 @@
+---
+title: "Uno"
+author: "Joey Stanley"
+date: "6/3/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+My almost-three-year-old has gotten pretty good at Uno. I thought I'd simulate the game to answer some questions I have about it.
+
+```{r}
+library(tidyverse)
+```
+
